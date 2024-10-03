@@ -1,0 +1,1 @@
+My progress following https://www.youtube.com/watch?v=G3e-cpL7ofc&t=3992s&ab_channel=SuperSimpleDev as a way to learn HTML and CSS.
