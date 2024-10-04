@@ -1,0 +1,21 @@
+p {
+    font-family: Montserrat;
+    margin-bottom: 0px;
+}
+
+.model {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 125px;
+}
+
+.order {
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.delivery {
+    text-decoration: underline;
+}
