@@ -17,28 +17,19 @@
             }
 
             .thumbnail {
-                width:300px;
-                display: block;
+                width: 100%;
             }
             .search-bar {
                 display: block;
             }
 
-            .video-preview {
-                width: 300px;
-                display: inline-block;
-                vertical-align: top;
-                margin-right: 15px;
+           
+
+            .video-info-grid {
+                display:grid;
+                grid-template-columns: 50px 1fr;
             }
-            .channel-picture {
-                display: inline-block;
-                width: 50px;
-                vertical-align: top;
-            }
-            .video-info {
-                display: inline-block;
-                width: 200px;
-            }   
+
             .profile-picture {
                 width: 40px;
                 border-radius: 350px;
@@ -58,51 +49,144 @@
                 color: rgb(96, 96, 96);
             }
             .video-author {
-                margin-bottom: 4px;
+                margin-bottom: 4px
+            }
+            .video-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 16px;
+                row-gap: 40px;
             }
         </style>
     </head>
     <body>
         <input class="search-bar" type="text" placeholder="Search"> 
-        <div class="video-preview">
-            <div class="thumbnail-row">
-                <img class="thumbnail" src="final.project.images/thumbnail-1.webp">
-            </div>
-            <div>
-                <div class="channel-picture">
-                    <img class="profile-picture"src="final.project.images/channel-1.jpeg">
+        
+        <div class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="final.project.images/thumbnail-1.webp">
                 </div>
-                <div class="video-info">
-                    <p class="video-title">
-                        Talking Tech and AI with Google CEO Sundar Pichai!
-                    </p>
-                    <p class="video-author">
-                        Marques Brownlee
-                    </p>
-                    <p class="video-stats">
-                        3.4M views &#183; 6 months ago
-                    </p>    
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="final.project.images/channel-1.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                        <p class="video-author">
+                            Marques Brownlee
+                        </p>
+                        <p class="video-stats">
+                            3.4M views &#183; 6 months ago
+                        </p>    
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="video-preview">
-            <div class="thumbnail-row">
-                <img class="thumbnail" src="final.project.images/thumbnail-2.webp">
-            </div>
-            <div>
-                <div class="channel-picture">
-                    <img class="profile-picture"src="final.project.images/channel-2.jpeg">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="final.project.images/thumbnail-2.webp">
                 </div>
-                <div class="video-info">
-                    <p class="video-title">
-                        My Waitlisting from Waterloo
-                    </p>
-                    <p class="video-author">
-                        Markiplier
-                    </p>
-                    <p class="video-stats">
-                        19M views · 4 years ago
-                    </p>    
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="final.project.images/channel-2.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            My Waitlisting from Waterloo
+                        </p>
+                        <p class="video-author">
+                            Markiplier
+                        </p>
+                        <p class="video-stats">
+                            19M views · 4 years ago
+                        </p>    
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="final.project.images/thumbnail-3.webp">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="final.project.images/channel-3.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Faker Documentary: The Goat
+                        </p>
+                        <p class="video-author">
+                            T1
+                        </p>
+                        <p class="video-stats">
+                            5.4M views &#183; 1 month ago
+                        </p>    
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="final.project.images/thumbnail-4.webp">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="final.project.images/channel-4.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            How to Bottom for a Penis!
+                        </p>
+                        <p class="video-author">
+                            wickeydkewl
+                        </p>
+                        <p class="video-stats">
+                            69B views · 2 years ago
+                        </p>    
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="final.project.images/thumbnail-5.webp">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="final.project.images/channel-5.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            How Can I Forget That Name?
+                        </p>
+                        <p class="video-author">
+                            Griffith x Guts
+                        </p>
+                        <p class="video-stats">
+                            1.5K views &#183; 7 months ago
+                        </p>    
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="final.project.images/thumbnail-6.webp">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="final.project.images/channel-6.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Ja Morant 26 Point Triple Double!
+                        </p>
+                        <p class="video-author">
+                            NBA
+                        </p>
+                        <p class="video-stats">
+                            21M views · 1 week ago
+                        </p>    
+                    </div>
                 </div>
             </div>
         </div>
